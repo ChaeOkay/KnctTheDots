@@ -7,6 +7,7 @@
 //
 
 #import "JCAppDelegate.h"
+#import "JCAppViewController.h"
 
 @implementation JCAppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
+    JCAppViewController *appViewController = [JCAppViewController new];
+    self.window.rootViewController = appViewController;
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
