@@ -10,7 +10,7 @@
 
 @interface JCLine : NSObject
 
-@property (nonatomic) CGPoint *startPt;
-@property (nonatomic) CGPoint *endPt;
+@property (nonatomic) CGPoint startPt;
+@property (nonatomic) CGPoint endPt;
 
 @end
