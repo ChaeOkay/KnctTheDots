@@ -14,6 +14,4 @@
 
 @property (nonatomic, weak) JCLinesViewController *lineSource;
 
-- (void) setLineSource:(JCLinesViewController *)lineSource;
-
 @end
