@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JCLineSource.h"
 
 @class JCLine;
 
-@interface JCLinesViewController : UIViewController
+@interface JCLinesViewController : UIViewController <JCLineSource>
 
 @property (nonatomic, strong) JCLine *currentLine;
-
-- (JCLine *) line;
 
 @end
