@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JCLineSource.h"
 
 @class JCLinesViewController;
 
 @interface JCLinesView : UIView
 
-@property (nonatomic, weak) JCLinesViewController *lineSource;
+@property (nonatomic, weak) id<JCLineSource> lineSource;
 
 @end
