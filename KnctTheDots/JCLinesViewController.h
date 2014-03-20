@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JCAppViewController : UIViewController
+@class JCLine;
+
+@interface JCLinesViewController : UIViewController
+
+@property (nonatomic, strong) JCLine *currentLine;
+
+- (JCLine *) line;
 
 @end
