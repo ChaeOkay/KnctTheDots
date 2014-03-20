@@ -10,4 +10,9 @@
 
 @implementation JCLine
 
+- (NSString *) description
+{
+    return [NSString stringWithFormat:@"<Line start: %.2fx%.2f, end: %.2fx%.2f>", self.startPt.x, self.startPt.y, self.endPt.x, self.endPt.y];
+}
+
 @end
