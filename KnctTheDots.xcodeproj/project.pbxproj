@@ -116,12 +116,9 @@
 		E0C964C818DB5E7A0063AA08 /* KnctTheDots */ = {
 			isa = PBXGroup;
 			children = (
-				E0C964F118DB5E990063AA08 /* JCLine.h */,
-				E0C964F218DB5E990063AA08 /* JCLine.m */,
-				E0C964F418DB603F0063AA08 /* JCLinesView.h */,
-				E0C964F518DB603F0063AA08 /* JCLinesView.m */,
-				E0C964F718DB60810063AA08 /* JCLinesViewController.h */,
-				E0C964F818DB60810063AA08 /* JCLinesViewController.m */,
+				E0C964FC18DB92560063AA08 /* Models */,
+				E0C964FD18DB92610063AA08 /* Views */,
+				E0C964FE18DB92660063AA08 /* Controllers */,
 				E0C964D118DB5E7A0063AA08 /* JCAppDelegate.h */,
 				E0C964D218DB5E7A0063AA08 /* JCAppDelegate.m */,
 				E0C964D418DB5E7A0063AA08 /* Images.xcassets */,
@@ -157,6 +154,33 @@
 				E0C964E418DB5E7A0063AA08 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0C964FC18DB92560063AA08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0C964F118DB5E990063AA08 /* JCLine.h */,
+				E0C964F218DB5E990063AA08 /* JCLine.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E0C964FD18DB92610063AA08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0C964F418DB603F0063AA08 /* JCLinesView.h */,
+				E0C964F518DB603F0063AA08 /* JCLinesView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E0C964FE18DB92660063AA08 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0C964F718DB60810063AA08 /* JCLinesViewController.h */,
+				E0C964F818DB60810063AA08 /* JCLinesViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
