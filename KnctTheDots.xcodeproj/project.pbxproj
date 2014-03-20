@@ -57,6 +57,7 @@
 		E0C964F518DB603F0063AA08 /* JCLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLinesView.m; sourceTree = "<group>"; };
 		E0C964F718DB60810063AA08 /* JCLinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLinesViewController.h; sourceTree = "<group>"; };
 		E0C964F818DB60810063AA08 /* JCLinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLinesViewController.m; sourceTree = "<group>"; };
+		E0C9650018DB92AF0063AA08 /* JCLineSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCLineSource.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		E0C964C818DB5E7A0063AA08 /* KnctTheDots */ = {
 			isa = PBXGroup;
 			children = (
+				E0C964FF18DB92960063AA08 /* Protocols */,
 				E0C964FC18DB92560063AA08 /* Models */,
 				E0C964FD18DB92610063AA08 /* Views */,
 				E0C964FE18DB92660063AA08 /* Controllers */,
@@ -181,6 +183,14 @@
 				E0C964F818DB60810063AA08 /* JCLinesViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E0C964FF18DB92960063AA08 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9650018DB92AF0063AA08 /* JCLineSource.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
