@@ -20,6 +20,8 @@
 		E0C964E618DB5E7A0063AA08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0C964E418DB5E7A0063AA08 /* InfoPlist.strings */; };
 		E0C964E818DB5E7A0063AA08 /* KnctTheDotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C964E718DB5E7A0063AA08 /* KnctTheDotsTests.m */; };
 		E0C964F318DB5E990063AA08 /* JCLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C964F218DB5E990063AA08 /* JCLine.m */; };
+		E0C964F618DB603F0063AA08 /* JCAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C964F518DB603F0063AA08 /* JCAppView.m */; };
+		E0C964F918DB60810063AA08 /* JCAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C964F818DB60810063AA08 /* JCAppViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E0C964E718DB5E7A0063AA08 /* KnctTheDotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnctTheDotsTests.m; sourceTree = "<group>"; };
 		E0C964F118DB5E990063AA08 /* JCLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCLine.h; path = ../JCLine.h; sourceTree = "<group>"; };
 		E0C964F218DB5E990063AA08 /* JCLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCLine.m; path = ../JCLine.m; sourceTree = "<group>"; };
+		E0C964F418DB603F0063AA08 /* JCAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAppView.h; sourceTree = "<group>"; };
+		E0C964F518DB603F0063AA08 /* JCAppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAppView.m; sourceTree = "<group>"; };
+		E0C964F718DB60810063AA08 /* JCAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAppViewController.h; sourceTree = "<group>"; };
+		E0C964F818DB60810063AA08 /* JCAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAppViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 			children = (
 				E0C964F118DB5E990063AA08 /* JCLine.h */,
 				E0C964F218DB5E990063AA08 /* JCLine.m */,
+				E0C964F418DB603F0063AA08 /* JCAppView.h */,
+				E0C964F518DB603F0063AA08 /* JCAppView.m */,
+				E0C964F718DB60810063AA08 /* JCAppViewController.h */,
+				E0C964F818DB60810063AA08 /* JCAppViewController.m */,
 				E0C964D118DB5E7A0063AA08 /* JCAppDelegate.h */,
 				E0C964D218DB5E7A0063AA08 /* JCAppDelegate.m */,
 				E0C964D418DB5E7A0063AA08 /* Images.xcassets */,
@@ -247,7 +257,9 @@
 			files = (
 				E0C964CF18DB5E7A0063AA08 /* main.m in Sources */,
 				E0C964D318DB5E7A0063AA08 /* JCAppDelegate.m in Sources */,
+				E0C964F918DB60810063AA08 /* JCAppViewController.m in Sources */,
 				E0C964F318DB5E990063AA08 /* JCLine.m in Sources */,
+				E0C964F618DB603F0063AA08 /* JCAppView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
