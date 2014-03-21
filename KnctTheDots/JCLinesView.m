@@ -43,6 +43,12 @@
     NSLog(@"%@", self.lineSource.line);
 
     [[UIColor yellowColor] set];
+    for (JCLine *drawnLine in self.lineSource.drawnLines)
+    {
+        [self drawLine:drawnLine];
+    }
+
+    [[UIColor blueColor] set];
     if (self.lineSource.line)
     {
         [self drawLine:self.lineSource.line];
