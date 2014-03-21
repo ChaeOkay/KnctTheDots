@@ -19,7 +19,7 @@
     JCLinesViewController *appViewController = [JCLinesViewController new];
     self.window.rootViewController = appViewController;
 
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor purpleColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
