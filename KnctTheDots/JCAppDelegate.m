@@ -8,6 +8,7 @@
 
 #import "JCAppDelegate.h"
 #import "JCLinesViewController.h"
+#import "JCDotsView.h"
 
 @implementation JCAppDelegate
 
@@ -18,6 +19,9 @@
 
     JCLinesViewController *appViewController = [JCLinesViewController new];
     self.window.rootViewController = appViewController;
+
+    JCDotsView *dotsView = [[JCDotsView alloc] initWithFrame:self.window.bounds];
+    [self.window addSubview:dotsView];
 
     self.window.backgroundColor = [UIColor purpleColor];
     [self.window makeKeyAndVisible];

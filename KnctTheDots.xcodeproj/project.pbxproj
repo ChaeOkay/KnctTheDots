@@ -22,6 +22,8 @@
 		E0C964F318DB5E990063AA08 /* JCLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C964F218DB5E990063AA08 /* JCLine.m */; };
 		E0C964F618DB603F0063AA08 /* JCLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C964F518DB603F0063AA08 /* JCLinesView.m */; };
 		E0C964F918DB60810063AA08 /* JCLinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C964F818DB60810063AA08 /* JCLinesViewController.m */; };
+		E0C9650A18DBC0F60063AA08 /* emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C9650918DBC0F60063AA08 /* emoji.png */; };
+		E0C9650D18DBC2FF0063AA08 /* JCDotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9650C18DBC2FF0063AA08 /* JCDotsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		E0C964F718DB60810063AA08 /* JCLinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLinesViewController.h; sourceTree = "<group>"; };
 		E0C964F818DB60810063AA08 /* JCLinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLinesViewController.m; sourceTree = "<group>"; };
 		E0C9650018DB92AF0063AA08 /* JCLineSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCLineSource.h; sourceTree = "<group>"; };
+		E0C9650918DBC0F60063AA08 /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji.png; sourceTree = "<group>"; };
+		E0C9650B18DBC2FF0063AA08 /* JCDotsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDotsView.h; sourceTree = "<group>"; };
+		E0C9650C18DBC2FF0063AA08 /* JCDotsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDotsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +137,7 @@
 		E0C964C918DB5E7A0063AA08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0C9650918DBC0F60063AA08 /* emoji.png */,
 				E0C964CA18DB5E7A0063AA08 /* KnctTheDots-Info.plist */,
 				E0C964CB18DB5E7A0063AA08 /* InfoPlist.strings */,
 				E0C964CE18DB5E7A0063AA08 /* main.m */,
@@ -170,6 +176,8 @@
 		E0C964FD18DB92610063AA08 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E0C9650B18DBC2FF0063AA08 /* JCDotsView.h */,
+				E0C9650C18DBC2FF0063AA08 /* JCDotsView.m */,
 				E0C964F418DB603F0063AA08 /* JCLinesView.h */,
 				E0C964F518DB603F0063AA08 /* JCLinesView.m */,
 			);
@@ -271,6 +279,7 @@
 			files = (
 				E0C964CD18DB5E7A0063AA08 /* InfoPlist.strings in Resources */,
 				E0C964D518DB5E7A0063AA08 /* Images.xcassets in Resources */,
+				E0C9650A18DBC0F60063AA08 /* emoji.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +303,7 @@
 				E0C964F918DB60810063AA08 /* JCLinesViewController.m in Sources */,
 				E0C964F318DB5E990063AA08 /* JCLine.m in Sources */,
 				E0C964F618DB603F0063AA08 /* JCLinesView.m in Sources */,
+				E0C9650D18DBC2FF0063AA08 /* JCDotsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
