@@ -13,10 +13,21 @@
 @interface JCLinesViewController ()
 
 @property (nonatomic, strong) JCLine *currentLine;
+@property (nonatomic, strong) NSMutableArray *mutableDrawnLines;
 
 @end
 
 @implementation JCLinesViewController
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        _mutableDrawnLines = [NSMutableArray new];
+    }
+    return self;
+}
 
 - (void) loadView
 {
