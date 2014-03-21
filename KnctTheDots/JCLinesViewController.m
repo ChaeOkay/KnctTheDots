@@ -41,6 +41,11 @@
     return self.currentLine;
 }
 
+- (NSArray *) drawnLines
+{
+    return [self.mutableDrawnLines copy];
+}
+
 - (void) touchesBegan:(NSSet *)touches
             withEvent:(UIEvent *)event
 {

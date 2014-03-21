@@ -13,5 +13,6 @@
 @protocol JCLineSource <NSObject>
 
 - (JCLine *) line;
+- (NSArray *) drawnLines;
 
 @end
