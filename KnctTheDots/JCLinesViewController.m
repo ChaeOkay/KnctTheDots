@@ -65,4 +65,12 @@
     [self.view setNeedsDisplay];
 }
 
+- (void) touchesEnded:(NSSet *)touches
+            withEvent:(UIEvent *)event
+{
+    [self.mutableDrawnLines addObject:self.currentLine];
+    self.currentLine = nil;
+    [self.view setNeedsDisplay];
+}
+
 @end
