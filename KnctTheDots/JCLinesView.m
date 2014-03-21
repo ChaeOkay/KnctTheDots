@@ -43,7 +43,10 @@
     NSLog(@"%@", self.lineSource.line);
 
     [[UIColor yellowColor] set];
-    [self drawLine:self.lineSource.line];
+    if (self.lineSource.line)
+    {
+        [self drawLine:self.lineSource.line];
+    }
 }
 
 
