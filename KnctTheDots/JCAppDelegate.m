@@ -21,7 +21,7 @@
     self.window.rootViewController = appViewController;
 
     JCDotsView *dotsView = [[JCDotsView alloc] initWithFrame:self.window.bounds];
-    [self.window addSubview:dotsView];
+    [appViewController.view addSubview:dotsView];
 
     self.window.backgroundColor = [UIColor purpleColor];
     [self.window makeKeyAndVisible];
