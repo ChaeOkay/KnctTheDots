@@ -12,6 +12,8 @@
 
 @interface JCLinesViewController ()
 
+@property (nonatomic, strong) JCLine *currentLine;
+
 @end
 
 @implementation JCLinesViewController

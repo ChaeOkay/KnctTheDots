@@ -13,6 +13,4 @@
 
 @interface JCLinesViewController : UIViewController <JCLineSource>
 
-@property (nonatomic, strong) JCLine *currentLine;
-
 @end
